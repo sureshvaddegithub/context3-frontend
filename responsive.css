@@ -1,0 +1,38 @@
+@media (max-width:600px){
+    .left_container,.right_container{
+        display:none;
+    }
+   .responsive,.menu{
+    display: flex;
+   }
+
+   .responsive{
+    font-size:20px;
+   }
+
+   .menu{
+    border:1px solid #f7f7f7;
+    padding:5px;
+   }
+
+   
+
+    main{
+        display:flex;
+        flex-direction:column;
+    }
+    .card-container{
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .Name{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .Name input{
+        width:100%;
+    }
+
+}
